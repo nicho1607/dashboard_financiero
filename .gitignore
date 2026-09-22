@@ -2,33 +2,18 @@
 .env
 .env.*
 !.env.example
-*.env
 **/.env
 **/.env.local
 **/.env.production
 
-# ===== Python / Backend =====
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-venv/
-env/
-ENV/
-.venv/
-*.egg-info/
-.pytest_cache/
-.mypy_cache/
-*.sqlite3
-*.db
-
-# ===== Node / Frontend =====
+# ===== Node / Next.js =====
 node_modules/
+.next/
+out/
+build/
 dist/
-dist-ssr/
-*.local
-.vite/
+*.tsbuildinfo
+next-env.d.ts
 
 # ===== Editores / OS =====
 .vscode/

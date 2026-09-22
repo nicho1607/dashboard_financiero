@@ -1,0 +1,33 @@
+# Dependencias
+/node_modules
+
+# Variables de entorno con credenciales - NUNCA subir
+.env
+.env.*
+!.env.example
+
+# Next.js
+/.next/
+/out/
+next-env.d.ts
+
+# Prisma
+/prisma/migrations/dev.db*
+
+# Producción
+/build
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
