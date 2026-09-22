@@ -1,0 +1,22 @@
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Dependencias
+node_modules/
+
+# Build
+dist/
+dist-ssr/
+*.local
+
+# Vite cache
+.vite/
+
+# Vercel
+.vercel
+
+# Logs
+*.log
+npm-debug.log*
