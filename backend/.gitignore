@@ -18,3 +18,7 @@ env/
 
 # Logs
 *.log
+
+# Scripts con credenciales de prueba (contienen contraseñas en texto)
+seed_user.py
+migrate_user_transactions.py
